@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+body {
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+   
+}
+
+.header,
+.content,
+.footer {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.header-logo{
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.header ul{
+    font-size: 18px;
+    list-style-type: none;
+    display: flex;
+    gap: 24px;
+    color: #E5E7EB;
+}
+
+.content {
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+
+    align-items: stretch;
+   
+}
+
+.footer {
+    background-color: #1f2937;
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+   
+}
+
+.hero,
+.random-info,
+.quote,
+.call-to-action{
+    flex:1;
+}
+
+.hero{
+    color: #F9FAF8;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+}
+
+.random-info {
+    flex:1
+}
+
+.quote{
+    flex:1
+}
+
+.call-to-action {
+    flex:1
+}
