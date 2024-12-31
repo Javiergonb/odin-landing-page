@@ -27,7 +27,7 @@ body {
 
 .header,
 .hero,
-.content div,
+.content .padded,
 .footer {
     padding-left: 15%;
     padding-right: 15%;
@@ -129,8 +129,52 @@ body {
     justify-content: center;
 }
 
-img {
-    height: 400px;
-    width: 200;
+.hero img{
+    height: 300px;
+    width: 150;
 }
-  
+
+.random-info h2{
+    text-align: center;
+    font-weight: 900;
+    font-size: 36px;
+}
+
+.images-subtext{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
+}
+
+.images-subtext-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    
+}
+
+.square{
+    box-sizing: border-box;
+    background-color: white;
+    border: solid #3882F6 4px;
+    border-radius: 10%;
+    height: 150px;
+    width: 150px;
+    padding: 0;
+    margin: 0;
+}
+
+.images-subtext-container p{
+    max-width: 200px;
+    font-size: 18px;
+    color: #1F2937;
+}
+
+.random-info {
+    margin-top: 28px;
+    margin-bottom: 100px;
+}
