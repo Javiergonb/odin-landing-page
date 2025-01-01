@@ -102,9 +102,7 @@ body {
     
 }
 
-.call-to-action {
-    flex:1
-}
+
 
 .awesome button {
     background-color: #3882F6;
@@ -208,4 +206,37 @@ body {
     font-size: 36px;
     font-style: bold;
     
+}
+
+.call-to-action-container{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 5% 15%;
+    background-color: #3882F6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.call-to-action-text{
+    font-size: 36px;
+    font-weight: 300;
+    color: #F9FAF8;
+}
+
+.call-to-action-secondary-text{
+    font-size: 18px;
+    font-weight: 100;
+    color: #E5E7EB;
+}
+
+.call-to-action-button{
+    background-color: #3882F6;
+    border: #F9FAF8 3px solid;
+    font-size: 24px;
+    padding: 8px 24px;
+    border-radius: 10px;
+    color: #F9FAF8;
+
 }
